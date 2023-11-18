@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 
 #body-div {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  padding-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #quote-box {
@@ -44,4 +49,9 @@
   border: 3px #333 outset;
   border-radius: 2px;
   color: rgb(150,100,100);
+}
+
+#twitterIcon {
+  background-color: black;
+  font-size: 30px;
 }
