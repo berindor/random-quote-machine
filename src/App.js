@@ -49,7 +49,7 @@ class App extends React.Component {
           <div id="author">- {this.state.author}</div>
           <div id="bottom-div">
             <button id="new-quote" style={{color: this.state.color.quoteBox }} onClick={this.loadNewQuote} >New quote</button>
-            <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" >
+            <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noreferrer" >
               <TwitterIcon id="twitterIcon" style={{color: this.state.color.quoteBox }}/>
             </a>
           </div>
